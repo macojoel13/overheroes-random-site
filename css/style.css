@@ -30,6 +30,15 @@ background-color: pink;
     text-align: center;
 }
 
+.textAlign {
+  text-align: center;
+
+  color: red;
+
+  font-family: Bungee,monospace;
+  font-size: 25px;
+}
+
 #heroResult {
   text-align: center;
 
@@ -63,4 +72,15 @@ background-color: pink;
 
 #random_picker:hover{
   transform: scale(1.2);
+}
+
+#tracer_Standing_Pose {
+
+  display: block;
+
+  max-width: 10%;
+  height: auto;
+
+  margin: 0 auto;
+
 }
