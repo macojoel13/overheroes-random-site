@@ -48,7 +48,7 @@ background-color: pink;
   font-size: 30px;
 }
 
-#portrait_heroes {
+.portrait_heroes {
   display: block;
 
   max-width: 0 auto;

@@ -26,6 +26,8 @@ function randomHeroPicker(){
       break;
       case 7: document.getElementById("resultImg").src =
         "https://image.ibb.co/gMFvFR/Icon_Portrait_Mccree.png";
+
+      //Add new cases for the defense heroes random pool.
       default:
       break;
     }
