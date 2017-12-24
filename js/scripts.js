@@ -1,5 +1,5 @@
 function randomNumberPicker() {
-    var number = Math.floor((Math.random() * 12) + 1);
+    var number = Math.floor((Math.random() * 26) + 1);
     return number;
   }
 
