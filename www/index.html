@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="msapplication-tap-highlight" content="no" />
+      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="css/index.css" />
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bungee"/>
+
+      <title>OverRandom</title>
+  </head>
+  <div>
+
+    <header>
+      <h1 id= "titleRandomPicker">Overwatch Random Hero Selector</h1>
+    </header>
+
+      <body>
+          <img id="overIcon" class="autoScaleCenterImg" alt="Overwatch Icon" src="https://cdn.iconverticons.com/files/png/a12c1a69de0acc73_256x256.png"/>
+
+          <div class= "portrait_heroes">
+
+                  <!--Offense Heroes Portraits-->
+
+          <h2 class= "textAlign">Offense Heroes</h2>
+
+          <img id="genji_portrait"  src="https://image.ibb.co/cBOnUm/Icon_Portrait_Genji.png" alt="Icon_Portrait_Genji" border="0">
+          <img id="pharah_portrait" src="https://image.ibb.co/mvJzaR/Icon_Portrait_Pharah.png" alt="Icon_Portrait_Pharah" border="0">
+          <img id="reaper_portrait" src="https://image.ibb.co/i8sgpm/Icon_Portrait_Reaper.png" alt="Icon_Portrait_Reaper" border="0">
+          <img id="soldier76_portrait" src="https://image.ibb.co/ddcsvR/Icon_Portrait_Soldier76.png" alt="Icon_Portrait_Soldier76" border="0">
+          <img id="tracer_portrait" src="https://image.ibb.co/gG3Mpm/Icon_Portrait_Tracer.png" alt="Icon_Portrait_Tracer" border="0">
+          <img id="sombra_portrait" src="https://image.ibb.co/fQvHUm/Icon_Portrait_Sombra.png" alt="Icon_Portrait_Sombra" border="0">
+          <img id="mccree_portrait" src="https://image.ibb.co/gMFvFR/Icon_Portrait_Mccree.png" alt="Icon_Portrait_Mccree" border="0">
+          <img id="doomfist_portrait" src="https://image.ibb.co/kSKCkR/Icon_Portrait_Doomfist.png" alt="Icon_Portrait_Doomfist" border="0">
+
+
+          <h3 class="textAlign" style="color:blue">Defense Heroes</h3>
+          <img id="bastion_portrait" src="https://image.ibb.co/k44pEm/Icon_Portrait_Bastion.png" alt="Icon_Portrait_Bastion" border="0">
+          <img id="junkrat_portrait" src="https://image.ibb.co/i7Y5n6/Icon_Portrait_Junkrat.png" alt="Icon_Portrait_Junkrat" border="0">
+          <img id="mei_portrait" src="https://image.ibb.co/dtjBS6/Icon_Portrait_Mei.png" alt="Icon_Portrait_Mei" border="0">
+          <img id="torbjorn_portrait" src="https://image.ibb.co/jKKd76/Icon_Portrait_Torbjorn.png" alt="Icon_Portrait_Torbjorn" border="0">
+          <img id="hanzo_portrait" src="https://image.ibb.co/fj1VLR/Icon_Portrait_Hanzo.png" alt="Icon_Portrait_Hanzo" border="0">
+          <img id="widow_portrait" src="https://image.ibb.co/bXujfR/Icon_Portrait_Widowmaker.png" alt="Icon_Portrait_Widowmaker" border="0">
+
+
+
+          <h4 class="textAlign" style="color:gray">Tank Heroes</h4>
+          <img src="https://image.ibb.co/jwQMC6/Icon_Portrait_Orisa.png" alt="Icon_Portrait_Orisa" border="0">
+          <img src="https://image.ibb.co/fwSCKm/Icon_Portrait_Reinhardt.png" alt="Icon_Portrait_Reinhardt" border="0">
+          <img src="https://image.ibb.co/eKQzzm/Icon_Portrait_Roadhog.png" alt="Icon_Portrait_Roadhog" border="0">
+          <img src="https://image.ibb.co/kccOQR/Icon_Portrait_Winston.png" alt="Icon_Portrait_Winston" border="0">
+          <img src="https://image.ibb.co/d9RuX6/Icon_Portrait_Zarya.png" alt="Icon_Portrait_Zarya" border="0">
+          <img src="https://image.ibb.co/mrYmem/Icon_Portrait_D_va.png" alt="Icon_Portrait_D_va" border="0">
+
+
+
+          <h4 class="textAlign" style="color:green">Support Heroes</h4>
+          <img src="https://image.ibb.co/dZuWC6/Icon_Portrait_Moira.png" alt="Icon_Portrait_Moira" border="0">
+          <img src="https://image.ibb.co/i8N1C6/Icon_Portrait_Symmetra.png" alt="Icon_Portrait_Symmetra" border="0">
+          <img src="https://image.ibb.co/dmqA5R/Icon_Portrait_Zenyatta.png" alt="Icon_Portrait_Zenyatta" border="0">
+          <img src="https://image.ibb.co/k6QMC6/Icon_Portrait_Ana.png" alt="Icon_Portrait_Ana" border="0">
+          <img src="https://image.ibb.co/ctN1C6/Icon_Portrait_Lucio.png" alt="Icon_Portrait_Lucio" border="0">
+          <img src="https://image.ibb.co/kOTV5R/Icon_Portrait_Mercy.png" alt="Icon_Portrait_Mercy" border="0">
+
+
+        </div>
+          <button id="random_picker" onclick="randomNumberPicker(), randomHeroPicker()" type="button" name="random_picker">Randomize Pick</button>
+        <p id="heroResult">Your Hero Will Be:</p>
+        <img id= "resultImg" class= "autoScaleCenterImg" src="https://image.ibb.co/hW0cZm/Mei_Hello_Anim.gif" alt="Mei_Hello_Anim" border="0"/>
+      </body>
+      <footer>
+        <p class="textAlign" style="color: black">
+          Author: Marco J. Leon
+          <br />
+          Contributors: Robert Rivera
+        </p>
+      </footer>
+    </div>
+</html>
