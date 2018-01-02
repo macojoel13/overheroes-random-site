@@ -2,10 +2,10 @@
 <widget id="com.macojoel.overrandom" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>OverRandom</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Overwatch Tool for choosing random heroes.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="marcojoel25@gmail.com" href="http://macojoel.com">
+        macojoel
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
