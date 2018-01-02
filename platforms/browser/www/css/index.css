@@ -48,11 +48,7 @@ background-color: pink;
 }
 
 .portrait_heroes {
-  display: inline-block;
-
-  max-width: 0 auto;
-  height: auto;
-  margin: 0 auto;
+  display: block;
 
   text-align: center;
 }
@@ -86,5 +82,10 @@ background-color: pink;
   max-width: 10%;
   height: auto;
   margin: 0 auto;
+
+}
+
+#copyrights_reference {
+  text-align: center;
 
 }
