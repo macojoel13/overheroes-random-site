@@ -1,11 +1,11 @@
 body {
-background-color: pink;
+background-color: rgb(0, 126, 189);
 }
 
 #titleRandomPicker{
     text-align: center;
 
-    color: black;
+    color: white;
 
     font-family: Bungee, monospace;
     font-size: 40px;
@@ -41,7 +41,7 @@ background-color: pink;
 #heroResult {
   text-align: center;
 
-  color: black;
+  color: orange;
 
   font-family: Bungee, monospace;
   font-size: 30px;
